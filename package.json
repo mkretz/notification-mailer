@@ -1,0 +1,25 @@
+{
+  "name": "notification-mailer",
+  "version": "1.0.0",
+  "description": "CF sample app mailer",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkretz/notification-mailer.git"
+  },
+  "author": "Mathis Kretz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mkretz/notification-mailer/issues"
+  },
+  "homepage": "https://github.com/mkretz/notification-mailer#readme",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "cfenv": "^1.0.4",
+    "nodemailer": "^4.4.1"
+  }
+}
