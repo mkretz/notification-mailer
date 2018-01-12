@@ -7,3 +7,4 @@ applications:
   memory: 128M
   services:
   - notification-mq
+  - notification-mail
