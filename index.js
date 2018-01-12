@@ -10,7 +10,7 @@ amqp.connect(rabbitmqUri, function(err, conn) {
         ch.assertQueue(queue, {durable: false});
         console.log(" [*] Waiting for messages in %s. To exit press CTRL+C", queue);
         ch.consume(queue, function(msg) {
-
+                console.log(JSON.parse(msg.content));
             });
         }, {noAck: true});
     });
