@@ -13,9 +13,7 @@ cf create-user-provided-service notification-mail -p "url,toAddress"
 ```
 For the parameter `url` enter the SMTP URL of the mailserver you want to use. For a Mailgun sandbox domain this would be something like `smtp://postmaster@<mailgun-user>:<mailgun-password>@smtp.mailgun.org:587`. For the parameter `toAddress` enter the email address you want to send notifications to.
 
-4. If required, adapt the `name` attribute in `manifest.yml` to change the app's name.
-
-5. Push the app
+4. Push the app
 ```
 cf push
 ```

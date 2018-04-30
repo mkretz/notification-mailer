@@ -1,7 +1,7 @@
 {
   "name": "notification-mailer",
-  "version": "1.0.0",
-  "description": "CF sample app mailer",
+  "version": "1.0.1",
+  "description": "CF sample application mailer",
   "main": "index.js",
   "scripts": {
     "test": "test",
@@ -23,7 +23,7 @@
     "nodemailer": "^4.4.1"
   },
   "engines": {
-    "node": "6.11.2",
+    "node": "6.13.1",
     "npm": "5.1.0"
   }
 }
